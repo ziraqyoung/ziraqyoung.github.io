@@ -24,17 +24,10 @@ jobs:
           fetch-depth: 0  # for posts's lastmod
 
       - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+        uses: actions/setup-ruby@v1.65.0
         with:
-          ruby-version: 2.7
-
-      - name: Bundle Caching
-        uses: actions/cache@v2
-        with:
-          path: ${{ env.GEMS_PATH }}
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          ruby-version: 3.0.0
+          bundler-cache: true
 
       - name: Bundle Install
         run: |
