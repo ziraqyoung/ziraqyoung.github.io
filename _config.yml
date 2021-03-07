@@ -15,9 +15,9 @@ timezone: Africa/Nairobi
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Josphat Kariuki                         # the main title
+title: Josphat Kariuki (@ziraq young)                        # the main title
 
-tagline: My portfolio blog   # it will display as the sub-title
+tagline: Software Developer / Economist
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://ziraqyoung.github.io'
 
-author: Josphat Kariuki                  # change to your full name
+author: Josphat Kariuki (@ziraq young)                  # change to your full name
 
 github:
   username: ziraqyoung             # change to your github username
@@ -68,7 +68,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
+theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
